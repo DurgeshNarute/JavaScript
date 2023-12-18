@@ -24,3 +24,5 @@ console.log(typeof isLoggedIn);
 // Note: Interview Qu.
 console.log(typeof undefined);      // undefined
 console.log(typeof null);           // object
+
+console.log(typeof(234));
