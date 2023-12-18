@@ -35,8 +35,8 @@ let someNumber = 123
 
 let stringNumber = String(someNumber)
 
-console.log(typeof(stringNumber));
-console.log(stringNumber);
+// console.log(typeof(stringNumber));
+// console.log(stringNumber);
 /*
 123 => 123
 "" => blank
@@ -44,3 +44,46 @@ true => true ; false => false
 null => null
 undefined => undefined
 */
+
+//  ************************** Oprations *************************
+
+let value = 3
+let negValue = -value
+// console.log(negValue);    // -3
+/*
+2+2 => 4
+2*3 => 6
+2**3 => 8
+2/3 => 0.66666
+2%3 => 2
+*/
+
+let str1 = "Hello"
+let str2 = "world"
+
+let str3 = str1 + str2
+console.log(str3);
+/* 
+"1" + 2 => 12
+1 + "2" => 12
+"1" + 2 + 2 => 122
+1 + 2 + "2" => 32
+*/
+
+// console.log(+true);   // 1
+// console.log(+"");     // 0
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2    // 4
+
+//******** Postfix Increment
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);      // Expected output: "x:4, y:3"
+
+//******** Prefix Increment
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);      // Expected output: "a:4, b:4"
